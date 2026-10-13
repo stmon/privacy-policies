@@ -30,9 +30,19 @@ are the ones who hold it.</p>
 <h2>What stays on your phone</h2>
 <ul>
   <li>Your exact location, used to work out your travel times.</li>
-  <li>Your places (home, work, school and others) and the times you arrive at and leave them.</li>
-  <li>Your settings.</li>
+  <li>The times you arrive at and leave your places.</li>
+  <li>Your places (home, work, school and others) and your settings, with a backup copy
+      described below.</li>
 </ul>
+
+<h2>Backup of your places and settings</h2>
+<p>When you are signed in, Domov keeps a copy of your places (their names and locations) and
+your settings in your family's Firebase project, so a new phone or a reinstall gets them back
+when you sign in. Only the latest copy is kept, with no history; the times you arrive at and
+leave your places are not in it. Domov lets only you read it: your family does not see it in
+the app. Like everything in the family's project, it can be seen by the person who owns that
+project (in the Firebase console) and by Google as Firebase's provider. Leaving the family or
+deleting your account deletes it.</p>
 
 <h2>What your family sees</h2>
 <ul>
@@ -65,8 +75,9 @@ are shared.</p>
 
 <h2>Deleting your data</h2>
 <p>In Domov: Settings → Family → <strong>Delete my account</strong> deletes your data in the
-family and your account. Leaving the family deletes your data in it. Data kept only on your
-phone is removed when you uninstall Domov. The person who started the family deletes
+family, the backup of your places and settings, and your account. Leaving the family deletes
+your data in it, including that backup. Data kept only on your phone is removed when you
+uninstall Domov. The person who started the family deletes
 everything by deleting the family's Firebase project. More on the
 <a href="delete.html">account deletion page</a>.</p>
 
