@@ -15,7 +15,7 @@
 </head>
 <body>
 <h1>Domov privacy policy</h1>
-<p class="muted">Domov by panjlab · last updated 13 October 2026</p>
+<p class="muted">Domov by panjlab · last updated 14 October 2026</p>
 
 <p>Domov shows how long until each member of your family is home. It is built to share as
 little as possible: your family sees when you will be home, not where you are, unless you
@@ -30,14 +30,20 @@ are the ones who hold it.</p>
 <h2>What stays on your phone</h2>
 <ul>
   <li>Your exact location, used to work out your travel times.</li>
-  <li>The times you arrive at and leave your places.</li>
+  <li>The times you arrive at and leave your places, and your usual times learned from them
+      (for example "Mon–Fri 07:30–15:30"), kept for 60 days.</li>
+  <li>How long the roads to your places usually take, learned from the travel times Domov
+      gets anyway, and short notes from trips (a trip log you can copy in Settings → About to
+      report a problem).</li>
+  <li>Where your phone stays at night or on working days, kept for 14 days, only to suggest
+      pinning Home or Work while you are there.</li>
   <li>Your places (home, work, school and others) and your settings, with a backup copy
       described below.</li>
 </ul>
 
 <h2>Backup of your places and settings</h2>
 <p>When you are signed in, Domov keeps a copy of your places (their names and locations) and
-your settings in your family's Firebase project, so a new phone or a reinstall gets them back
+your settings (including usual times you set yourself) in your family's Firebase project, so a new phone or a reinstall gets them back
 when you sign in. Only the latest copy is kept, with no history; the times you arrive at and
 leave your places are not in it. Domov lets only you read it: your family does not see it in
 the app. Like everything in the family's project, it can be seen by the person who owns that
@@ -67,9 +73,10 @@ setup ends. You can also set up by hand without giving this access.</p>
 Firebase project), or join without an account, on that phone only.</p>
 
 <h2>Travel times</h2>
-<p>To get a travel time with live traffic, your phone sends the start and end point, rounded to
-about 10 metres, to the map service your family chose (TomTom or Mapbox), using the family's
-own key. Nothing else is sent with it.</p>
+<p>To get a travel time by car (with live traffic), on foot or by bike, your phone sends the
+start and end point, rounded to about 10 metres, to the map service your family chose (TomTom
+or Mapbox), using the family's own key. Nothing else is sent with it. Tips such as "Home: 18
+min now, usually 30" are worked out on your phone from those times.</p>
 
 <h2>Background location and activity</h2>
 <p>With your permission, Domov uses your location while it is closed, so your family's times
